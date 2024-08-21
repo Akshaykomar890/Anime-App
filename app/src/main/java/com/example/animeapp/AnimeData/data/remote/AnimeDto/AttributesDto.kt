@@ -1,0 +1,33 @@
+package com.example.animeapp.AnimeData.data.remote.AnimeDto
+
+data class AttributesDto(
+    val ageRating: String?,
+    val averageRating: String?,
+    val canonicalTitle: String?,
+    val coverImage: CoverImageDto?,
+    val coverImageTopOffset: Int?,
+    val createdAt: String?,
+    val description: String?,
+    val endDate: Any?,
+    val episodeCount: Any?,
+    val episodeLength: Int?,
+    val favoritesCount: Int?,
+    val nextRelease: String?,
+    val nsfw: Boolean?,
+    val popularityRank: Int?,
+    val posterImage: PosterImageDto?,
+    val ratingFrequencies: RatingFrequenciesDto?,
+    val ratingRank: Int?,
+    val showType: String?,
+    val slug: String?,
+    val startDate: String?,
+    val status: String?,
+    val subtype: String?,
+    val synopsis: String?,
+    val tba: Any?,
+    val titles: TitlesDto?,
+    val totalLength: Int?,
+    val updatedAt: String?,
+    val userCount: Int?,
+    val youtubeVideoId: String?
+)
